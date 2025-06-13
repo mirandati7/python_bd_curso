@@ -1,5 +1,6 @@
 from cliente import menu_cliente
 from categoria import menu_categoria
+from produto import menu_produto
 
 def menu_principal():
     print("|------------------------------------------|")
@@ -21,7 +22,7 @@ def menu_principal():
         elif opcao == "2":
             menu_categoria("Categoria")
         elif opcao == "3":
-            print("Cadastro de Produto")
+            menu_produto("Produto")
         elif opcao == "4":
             print("Cadastro de Usuario")
         elif opcao == "5":
